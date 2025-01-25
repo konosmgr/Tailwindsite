@@ -1,7 +1,15 @@
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./index.html", "./credits.html"],
+  safelist: [
+    {
+      pattern: /bg-(red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|stone|neutral|zinc|gray|slate)-(50|100|150|200|250|300|350|400|450|500|550|600|650|700|750|800|850|900|950)/,
+    }
+  ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Geist', 'sans-serif'],
+      },
       colors: {
         slate: {
           150: '#E9EEF4',
