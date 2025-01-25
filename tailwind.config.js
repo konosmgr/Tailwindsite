@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./index.html", "./credits.html"],
+  content: ["./index.html", "./credits/index.html"],
   safelist: [
     {
       pattern: /bg-(red|orange|amber|yellow|lime|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|pink|rose|stone|neutral|zinc|gray|slate)-(50|100|150|200|250|300|350|400|450|500|550|600|650|700|750|800|850|900|950)/,
